@@ -1,1 +1,3 @@
-# Gesture recognition using Hidden Markov Model (HMM)
+# Gesture recognition using Hidden Markov Model
+
+
