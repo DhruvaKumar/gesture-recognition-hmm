@@ -3,6 +3,8 @@
 
 The goal of the project is to perform gesture recognition from a smartphone IMU's gyroscope and accelerometer data. A [Hidden Markov Model (HMM)](https://en.wikipedia.org/wiki/Hidden_Markov_model) is used to build a generative model to classify new gestures.
 
+This project was done as a part of ESE650 Learning in Robotics, University of Pennsylvania in the spring of 2015.
+
 The training data consists of multiple observation sequences of 6 different gestures (circle, eight, inf, beat3, beat4, wave). The raw gyroscope and acclerometer data is first preprocessed and then quantized using k-means clustering. The 6 dimensional data is discretized into 20 clusters. A HMM is an extension of Markov models where observations are probabilistic functions of unobserved hidden states. Here, the discretized gestures are observations.
 
 A HMM is parametrized by `lambda = {pi, A, B}`
